@@ -50,7 +50,7 @@ public class Tesis extends Escrito{
     }
     @Override
     public String toString() {
-        String txt = this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+this.getPaginas()+"\n"+this.idea+"\n"+this.argumentos+"\n"+this.conclusion+"\n"+this.referencias;
+        String txt = this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+this.getPaginas()+"\n"+this.idea+"\n"+this.argumentos.length+"\n"+this.conclusion+"\n"+this.referencias;
         return txt;
     }
     @Override
