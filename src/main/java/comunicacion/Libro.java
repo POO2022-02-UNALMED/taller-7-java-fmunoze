@@ -45,6 +45,7 @@ public class Libro extends Escrito{
         return txt;
     }
     @Override
+    public
     int palabrasTotales(int palabrasPagina) {
         return this.getPaginas()*2;
     }

@@ -10,10 +10,10 @@ public class Fabula extends Escrito{
         this.interpretacion = interpretacion;
     }
     
-    public String getEnseñanza() {
+    public String getEnsenanza() {
         return enseñanza;
     }
-    public void setEnseñanza(String enseñanza) {
+    public void setEnsenanza(String enseñanza) {
         this.enseñanza = enseñanza;
     }
     public String interpretacion() {
@@ -28,6 +28,7 @@ public class Fabula extends Escrito{
         return txt;
     }
     @Override
+    public
     int palabrasTotales(int palabrasPagina) {
         return this.getPaginas()*1;
     }
